@@ -1,0 +1,9 @@
+#index:
+#    path: /
+#    controller: POSD\Controller\DefaultController::index
+homepage:
+    path: /
+    controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController::urlRedirectAction
+    defaults:
+        path: /backend
+        permanent: true

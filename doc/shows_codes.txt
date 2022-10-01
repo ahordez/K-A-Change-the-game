@@ -1,0 +1,320 @@
+rehearsal@chessmove.nl
+show1@chessmove.nl
+show2@chessmove.nl
+show3@chessmove.nl
+show4@chessmove.nl
+show5@chessmove.nl
+show6@chessmove.nl
+show7@chessmove.nl
+show8@chessmove.nl
+show9@chessmove.nl
+show10@chessmove.nl
+show11@chessmove.nl
+show12@chessmove.nl
+show13@chessmove.nl
+show14@chessmove.nl
+show15@chessmove.nl
+show16@chessmove.nl
+show17@chessmove.nl
+show18@chessmove.nl
+show19@chessmove.nl
+show20@chessmove.nl
+
+
+{ "rehearsal@chessmove.nl","show1@chessmove.nl","show2@chessmove.nl","show3@chessmove.nl","show4@chessmove.nl","show5@chessmove.nl","show6@chessmove.nl","show7@chessmove.nl","show8@chessmove.nl","show9@chessmove.nl","show10@chessmove.nl","show11@chessmove.nl","show12@chessmove.nl","show13@chessmove.nl","show14@chessmove.nl","show15@chessmove.nl","show16@chessmove.nl","show17@chessmove.nl","show18@chessmove.nl","show19@chessmove.nl","show20@chessmove.nl" }
+
+
+
+[rehearsal]
+rehearsal@chessmove.nl=rehearsal
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show1]
+show1@chessmove.nl=show1
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show2]
+show2@chessmove.nl=show2
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show3]
+show3@chessmove.nl=show3
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show4]
+show4@chessmove.nl=show4
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show5]
+show5@chessmove.nl=show5
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show6]
+show6@chessmove.nl=show6
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show7]
+show7@chessmove.nl=show7
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show8]
+show8@chessmove.nl=show8
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show9]
+show9@chessmove.nl=show9
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show10]
+show10@chessmove.nl=show10
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show11]
+show11@chessmove.nl=show11
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show12]
+show12@chessmove.nl=show12
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show13]
+show13@chessmove.nl=show13
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show14]
+show14@chessmove.nl=show14
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show15]
+show15@chessmove.nl=show15
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show16]
+show16@chessmove.nl=show16
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show17]
+show17@chessmove.nl=show17
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show18]
+show18@chessmove.nl=show18
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show19]
+show19@chessmove.nl=show19
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83
+
+[show20]
+show20@chessmove.nl=show20
+deepbluebv@chessmove.nl=Deep Blue BV
+deschuine@chessmove.nl=DE SCHUINE
+deschuine1@chessmove.nl=DE SCHUINE - 1
+emergencyalert@chessmove.nl=Emergency Alert
+deschuine111@chessmove.nl=DE SCHUINE - 111
+deschuine33@chessmove.nl=DE SCHUINE - 33
+deschuine23@chessmove.nl=DE SCHUINE - 23
+deschuine71@chessmove.nl=DE SCHUINE - 71
+deschuine11@chessmove.nl=DE SCHUINE - 11
+deschuine69@chessmove.nl=DE SCHUINE - 69
+deschuine83@chessmove.nl=DE SCHUINE - 83

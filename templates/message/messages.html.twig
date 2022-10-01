@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Messages overview{% endblock %}
+
+{% block breadcrumbs %}
+<li class="breadcrumb-item active">Messages overview</li>
+{% endblock %}
+
+{% block stylesheets %}
+{% endblock %}
+
+{% block javascripts %}
+{% endblock %}
+
+{% block body %}
+    <center><h1 id="clock"></h1></center>
+    <table border=1>
+        {% for message in messages %}
+            <tr>
+                <td style="padding:10px">{{ message.timestamp|date('H:i:s', '+00:00 GMT')  }}</td>
+                <td style="padding:10px">{{ message.sender }}</td>
+                <td style="padding:10px">{{ message.message|nl2br }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock %}

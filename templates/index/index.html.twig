@@ -1,0 +1,155 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Show control panel{% endblock %}
+
+{% block breadcrumbs %}
+<li class="breadcrumb-item active">Show control panel</li>
+{% endblock %}
+
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('calculatrice/calculatrice.css') }}">
+{% endblock %}
+
+{% block javascripts %}
+    <script src="{{ asset('calculatrice/calculatrice.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+    <center><h1 id="clock"></h1></center>
+    {% if show_is_going_on %}
+        <p>A show is <strong>activated</strong> !</p>
+        <p>The recipient ID of this show is : <strong>{{ recipient }}</strong></p>
+        <p>The show will start at : <strong>{{ timestamp_show_start|date('d/m/Y H:i:s', "Europe/Paris") }}</strong></p>
+        <p>The timeline cursor will be <strong>{{ timeline_cursor }} seconds</strong> after the normal beginning (0=normal beginning)</p>
+        <button onClick="window.location.reload();" type="button" class="btn btn-sm btn-outline-primary bg-gradient-info"><i class="fa fa-sync-alt"></i> Refresh status</button>
+        <br/>
+        <br/>
+        <form action="{{ path('stop_the_show') }}" method="post">
+            <input class="btn-lg btn-danger" type="submit" value="STOP the show !">
+        </form>
+    {% else %}
+        <p><strong>No show activated</strong></p>
+        <form action="{{ path('start_the_show') }}" method="post">
+            <p>The recipient ID of this show is :
+            <select name="recipient" required>
+                <option value="">--Please choose an option--</option>
+                <option value="rehearsal">rehearsal</option>
+                <option value="show1">show1</option>
+                <option value="show2">show2</option>
+                <option value="show3">show3</option>
+                <option value="show4">show4</option>
+                <option value="show5">show5</option>
+                <option value="show6">show6</option>
+                <option value="show7">show7</option>
+                <option value="show8">show8</option>
+                <option value="show9">show9</option>
+                <option value="show10">show10</option>
+                <option value="show11">show11</option>
+                <option value="show12">show12</option>
+                <option value="show13">show13</option>
+                <option value="show14">show14</option>
+                <option value="show15">show15</option>
+                <option value="show16">show16</option>
+                <option value="show17">show17</option>
+                <option value="show18">show18</option>
+                <option value="show19">show19</option>
+                <option value="show20">show20</option>
+            </select> (use "<strong>0rehearsal</strong>" for rehearsals and tryouts)</p>
+            <p>The timeline cursor will be <input type="number" min="0" max="7200" name="timeline_cursor" value="0" required> seconds after the normal beginning (<strong>0=normal beginning</strong>)</p>
+            <p>The show will start :<br>
+                <ul>
+                    <li><input type="radio" name="timestamp_show_start" value="0" required>&nbsp; <strong>Now</strong><br></li>
+                    <li><input type="radio" name="timestamp_show_start" value="3">&nbsp; <strong>In 3 seconds</strong><br></li>
+                    <li><input type="radio" name="timestamp_show_start" value="10">&nbsp; <strong>In 10 seconds</strong><br></li>
+                </ul>
+            </p>
+            <input class="btn-lg btn-success" type="submit" value="LAUNCH the show !">
+        </form>
+        <br/>
+        <table class="calculatrice" id="calc">
+            <tr>
+                <td colspan="4" class="calc_td_resultat">
+                    <input type="text" readonly="readonly" name="calc_resultat" id="calc_resultat" class="calc_resultat" onkeydown="javascript:key_detect_calc('calc',event);" />
+                </td>
+            </tr>
+            <tr>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="CE" onclick="javascript:f_calc('calc','ce');" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="&larr;" onclick="javascript:f_calc('calc','nbs');" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="%" onclick="javascript:f_calc('calc','%');" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="+" onclick="javascript:f_calc('calc','+');" />
+                </td>
+            </tr>
+            <tr>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="7" onclick="javascript:add_calc('calc',7);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="8" onclick="javascript:add_calc('calc',8);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="9" onclick="javascript:add_calc('calc',9);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="-" onclick="javascript:f_calc('calc','-');" />
+                </td>
+            </tr>
+			<tr>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="4" onclick="javascript:add_calc('calc',4);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="5" onclick="javascript:add_calc('calc',5);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="6" onclick="javascript:add_calc('calc',6);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="x" onclick="javascript:f_calc('calc','*');" />
+                </td>
+            </tr>
+            <tr>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="1" onclick="javascript:add_calc('calc',1);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="2" onclick="javascript:add_calc('calc',2);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="3" onclick="javascript:add_calc('calc',3);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="&divide;" onclick="javascript:f_calc('calc','/');" />
+                </td>
+            </tr>
+            <tr>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="0" onclick="javascript:add_calc('calc',0);" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="&plusmn;" onclick="javascript:f_calc('calc','+-');" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="," onclick="javascript:add_calc('calc','.');" />
+                </td>
+            	<td class="calc_td_btn">
+                	<input type="button" class="calc_btn" value="=" onclick="javascript:f_calc('calc','=');" />
+                </td>
+            </tr>
+        </table>
+        <script type="text/javascript">
+            $('document').ready(function(){
+                initialiser_calc('calc');
+            });
+
+		</script>
+
+    {% endif %}
+
+{% endblock %}

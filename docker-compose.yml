@@ -1,0 +1,47 @@
+version: '3.3'
+
+services:
+  #mariadb 10.3.28 container
+  mariadb:
+    container_name: changethegame_mariadb
+    image: 'mariadb:10.3.28'
+    volumes:
+      - 'changethegame_mariadb:/var/lib/mariadb'
+    restart: unless-stopped
+    env_file:
+      - docker/changethegame_mariadb/.env
+    ports:
+      - '3306:3306'
+
+
+  # PHPMyAdmin : App used in dev environment to browser mariadb datas
+  phpmyadmin:
+    container_name: changethegame_phpmyadmin
+    image: phpmyadmin/phpmyadmin
+    restart: unless-stopped
+    env_file:
+      - docker/changethegame_phpmyadmin/.env
+    ports:
+      - '8080:80'
+    depends_on:
+      - mariadb
+
+  #Apache 2.4 + PHP7.3. See Dockerfile for details
+  apache_php:
+    container_name: changethegame_apache_php
+    image: 'changethegame_apache_php:1.0'
+    build:
+      context: .
+      dockerfile: docker/changethegame_apache_php/Dockerfile
+    volumes:
+      - '.:/srv/changethegame:rw,cached'
+    restart: unless-stopped
+    env_file:
+      - .env.local
+    ports:
+      - '80:80'
+    depends_on:
+      - mariadb
+
+volumes:
+  changethegame_mariadb: #Persist mariadb datas

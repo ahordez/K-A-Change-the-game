@@ -1,0 +1,15 @@
+#parkings tr .links {
+    display:none;
+}
+
+#parkings tr:hover .links {
+    display:block;   
+}
+
+#authorizations tr .links {
+    display:none;
+}
+
+#authorizations tr:hover .links {
+    display:block;   
+}
